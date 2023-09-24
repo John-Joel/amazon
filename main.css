@@ -1,0 +1,67 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+.carousel,
+.carousel img {
+    height: 300px;
+}
+
+/* main {
+    display: flex;
+    background-color: #e0e0e0d0;
+} */
+
+main {
+    max-width: 1400px;
+    padding: 4rem;
+    margin: auto;
+    width: 100%;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    gap: 1.5rem;
+}
+
+img {
+    width: 100%;
+}
+
+.first-product {
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 1px 4px rgba(40, 37, 37, 0.1);
+    border-radius: 3px;
+}
+
+.pic {
+    overflow: hidden;
+}
+
+.pic:hover img {
+    transform: scale(1.1);
+}
+
+.product-pic {
+    transition: 0.3s;
+    aspect-ratio: 1/1;
+}
+
+.product-info {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ff6348;
+}
+
+/* .price p {
+    display: inline-block;
+    flex-direction: row;
+} */
+
+.OGrate {
+    font-weight: 500;
+}
+
+/* .mrp-rate {
+    font-size: 12px;
+} */

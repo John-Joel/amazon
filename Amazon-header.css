@@ -1,0 +1,535 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+body {
+    height: 1000px;
+    /* font-family: sans-serif;
+    font-weight: 600; */
+}
+
+* {
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.nav-left {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar {
+    display: flex;
+    background-color: black;
+    color: white;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    height: 55px;
+}
+
+.logo {
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 0.8rem;
+    width: 110px;
+    margin: 2px 10px;
+    padding: 4px;
+}
+
+#logoName {
+    margin-top: 16px;
+    font-size: 22px;
+}
+
+.bi-cart-plus {
+    color: rgb(248, 240, 119);
+}
+
+#fa-shopping-cart {
+    width: 50%;
+    height: 50px;
+    margin-bottom: 0px;
+}
+
+.bi-geo-alt {
+    font-size: 15px;
+    position: relative;
+    top: 16px;
+}
+
+.bi-cart2,
+.bi-cart-plus,
+.bi-list {
+    font-size: 24px;
+}
+
+
+/* .logo span{
+    position: relative;
+    pointer-events: none;
+    margin-left: 2px;
+} */
+
+.address-menu {
+    display: flex;
+    background-color: black !important;
+}
+
+.location-logo img {
+    width: 20px;
+    color: black;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px;
+}
+
+#hello-font {
+    font-size: 11px;
+    color: #ccc;
+    padding-bottom: -1px;
+}
+
+#address-font {
+    font-weight: bold;
+    font-size: 13px;
+    padding-top: -1px;
+    color: white;
+}
+
+.india-logo {
+    width: 20px;
+}
+
+.hello-font {
+    color: #ccc;
+}
+
+.material-icons {
+    font-size: 18px !important;
+    color: white;
+    margin-top: 20px;
+}
+
+.column {
+    line-height: 14px;
+}
+
+.nav-search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+    padding-left: px;
+    margin: 0px 20px 0px 30px;
+    vertical-align: middle;
+}
+
+.textarea {
+    flex: 1;
+}
+
+.textarea input {
+    width: 100%;
+    height: 40px;
+}
+
+.btn-group>.btn {
+    margin-right: -2px;
+    border-radius: 2px 0px 0px 2px;
+    width: 50px;
+    height: 40px;
+}
+
+.search-icon {
+    background-color: orange;
+    border: none;
+    width: 35px;
+    height: 40px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.search-icon .bi {
+    font-size: 20px;
+}
+
+.nav-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300px;
+    margin-inline: 0px;
+    padding: 0px;
+}
+
+.right .btn-secondary,
+#lang {
+    background: none;
+    border: none;
+}
+
+.right {
+    padding: 5px 15px 5px 13px;
+}
+
+.nav-right #flag {
+    background-image: url(./Amazon-img/fe2UeLQmJ11kKHN.png);
+    background-position-y: -460px;
+    width: 20px;
+    height: 18px;
+    position: relative;
+    top: 18px;
+    padding-left: 4px;
+}
+
+.nav-right #lang {
+    margin-left: -9px;
+    position: relative;
+    top: 9px;
+    background: none;
+}
+
+#nativity {
+    padding: 0px 0px 0px 4px;
+}
+
+#sign-line,
+#welcome-user {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+#btn-sign {
+    margin-top: 2px;
+    padding-top: 14px;
+}
+
+.span {
+    font-size: 18px;
+    padding-bottom: -1px;
+    text-align: center;
+    padding-top: 7px;
+}
+
+#account,
+#big-font {
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+#lang {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.order {
+    font-size: 12px;
+    padding: 8px 4px 3px 4px;
+}
+
+#cart-icon {
+    display: flex;
+    flex-direction: row;
+    padding: 8px 3px 2px 4px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.cart-count {
+    position: absolute;
+    top: 11px;
+    left: 11px;
+    height: 15px;
+    width: 12px;
+    line-height: 15px;
+    border-radius: 50%;
+    z-index: 99;
+    background-color: red;
+}
+
+.cart-font {
+    position: relative;
+    top: 9px;
+}
+
+.logo,
+.address-menu,
+#btn-sign,
+.order,
+#cart-icon,
+#nativity {
+    border: 1px solid transparent;
+}
+
+.logo:hover,
+.address-menu:hover,
+#btn-sign:hover,
+.order:hover,
+#cart-icon:hover,
+#nativity:hover {
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+
+#menu-signin {
+    background-image: url(./Amazon-img/nav-sprite-global-1x-reorg-celnav._CB590297325_.png);
+    background-position: -483px -785px;
+    width: 35px;
+    height: 40px;
+    border-radius: 17px;
+    margin-bottom: -7px;
+}
+
+.offcanvas-header {
+    background-color: #232f3e;
+    color: white;
+    position: relative;
+    height: 45px;
+    justify-content: left !important;
+}
+
+#offcanvasWithBothOptionsLabel {
+    font-weight: bold;
+}
+
+.btn-close {
+    position: absolute;
+    right: -30px;
+    background-color: white !important;
+}
+
+.offcanvas-body {
+    display: inline-block;
+    padding: 0px !important;
+}
+
+.offcanvas {
+    width: auto !important;
+}
+
+ol,
+ul {
+    padding-left: 0px !important;
+}
+
+li {
+    padding: 13px 20px 10px 25px;
+    margin-bottom: 0px !important;
+}
+
+.right-arrow {
+    background-image: url(./Amazon-img/nav-sprite-global-1x-reorg-celnav._CB590297325_.png);
+    background-position: -134px -286px;
+    width: 15px;
+    height: 20px;
+    margin-top: 2px;
+}
+
+.down-menu:active {
+    display: flex;
+}
+
+#down-arrow,
+#up-arrow {
+    background-image: url(./Amazon-img/nav-sprite-global-1x-reorg-celnav._CB590297325_.png);
+    background-position: -183px -789px;
+    width: 17px;
+    height: 15px;
+    margin: 3px 7px;
+}
+
+#up-arrow {
+    transform: rotate(180deg);
+}
+
+li:hover {
+    background-color: #cccccc7a;
+}
+
+li:hover>.right-arrow {
+    background-position: -163px -736px;
+}
+
+#nav-2row-left {
+    display: flex;
+    font-size: 13px;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+}
+
+#row-2,
+#hamberger-menu {
+    background-color: #000000;
+    color: white;
+    border: none;
+}
+
+#hamberger-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 56px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: -2px;
+}
+
+#hamberger-menu div {
+    margin-top: -3px;
+    padding-left: 3px;
+    font-size: 13px;
+    align-items: center;
+}
+
+#row-2 {
+    display: flex;
+}
+
+#more {
+    /* display: none; */
+    padding: 10px;
+}
+
+.myBtn.active #iMoreLess {
+    transform: rotate(180deg);
+}
+
+#iMoreLess {
+    transition: transform .5s ease-in-out;
+}
+
+#cart-btn {
+    background-color: #fee67c;
+    color: #414042;
+    border: none;
+    border-radius: 10%;
+    padding: 2px;
+    font-size: 1.1rem;
+}
+
+.cart {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 400px;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 1px 4px rgba(40, 37, 37, 0.1);
+    z-index: 100;
+    color: #000000;
+}
+
+.cart-active {
+    right: 0;
+    transition: 0.5s;
+}
+
+#card-title {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 10px;
+}
+
+.cart-box {
+    display: grid;
+    grid-template-columns: 32% 50% 18%;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 10px;
+}
+
+.cart-img {
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    padding: 5px;
+}
+
+.detail-box {
+    display: grid;
+    row-gap: 0.5rem;
+}
+
+.price-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-food-title {
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #ff6348;
+    font-weight: 500;
+}
+
+.cart-price {
+    font-weight: 500;
+}
+
+.cart-quantity {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    outline: none;
+    width: 2.4rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.bi-trash-fill {
+    font-size: 22px;
+    color: red;
+    cursor: pointer;
+}
+
+.total {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1.5rem;
+}
+
+.total-title {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.total-price {
+    margin-left: 0.5rem;
+}
+
+.buy-btn {
+    padding: 12px 20px;
+    background-color: #2f3542;
+    color: #fff;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.bi-x {
+    position: absolute;
+    top: 1rem;
+    right: 0.8rem;
+    font-size: 2rem;
+    cursor: pointer;
+}

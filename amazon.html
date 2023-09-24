@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon"
+    href="./Amazon-img/png-transparent-shopee-indonesia-online-shopping-android-receive-link-free-android-text-rectangle-orange-thumbnail.png">
+  <title>Shoppi - Online Shopping site in India:Shop Online for mobiles, books, watches, shoes and more - Amazon.in
+  </title>
+  <link rel="stylesheet" href="Amazon-header.css">
+  <link rel="stylesheet" href="./main.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+    crossorigin="anonymous"></script>
+  <div class="nav-bar">
+    <div class="nav-left">
+      <div id="row-2">
+        <div id="nav-2row-left">
+          <button class="btn btn-primary" id="hamberger-menu" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+            <i class="bi bi-list"></i>
+            <div>All</div>
+          </button>
+          <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+            aria-labelledby="offcanvasWithBothOptionsLabel">
+
+            <div class="offcanvas-header">
+              <div id="menu-signin"></div>
+              <div class="offcanvas-title" id="offcanvasWithBothOptionsLabel"><a href="./login-page.html"
+                  id="welcome-user">Sign in</a>
+              </div>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+
+
+            <div class="offcanvas-body">
+              <ul id="all-menu">
+              </ul>
+              <ul id="back-offcanvas">
+                <li>Groceries</li>
+                <li>Mobiles</li>
+                <li>Fashion</li>
+                <li>Electronics</li>
+                <li>Furniture</li>
+                <li>Appliances</li>
+                <li>Travel</li>
+                <hr>
+                <li>Toys</li>
+                <li>Two Wheelers</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="logo">
+        <i class="bi bi-cart-plus"></i>
+        <p id="logoName"><b><i>Shoppi</i></b></p>
+      </div>
+      <div class="address-menu">
+        <div class="loc">
+          <i class="bi bi-geo-alt"></i>
+        </div>
+        <div class="column">
+          <div id="hello-font">Hello</div>
+          <div id="address-font">Select your address</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="nav-search">
+      <div class="btn-group ">
+        <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          All
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">All categories</a></li>
+          <li><a class="dropdown-item" href="#">Alexa Skills</a></li>
+          <li><a class="dropdown-item" href="#">Amazon Devices</a></li>
+          <li><a class="dropdown-item" href="#">Amazon Fashion</a></li>
+          <li><a class="dropdown-item" href="#">Amazon Fresh</a></li>
+          <li><a class="dropdown-item" href="#">Amazon Pharmacy</a></li>
+        </ul>
+      </div>
+      <div class="textarea">
+        <input type="text" placeholder="Search">
+      </div>
+      <button class="search-icon">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+
+    <div class="nav-right">
+      <div class="btn-group" id="nativity">
+        <div id="flag"></div>
+        <button class="btn btn-secondary btn-sm dropdown-toggle" id="lang" type="button" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          EN
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">English - EN</a></li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+          <li><a class="dropdown-item" href="#">हिन्दी - HI</a></li>
+          <li><a class="dropdown-item" href="#">தமிழ் - TA</a></li>
+          <li><a class="dropdown-item" href="#">తెలుగు - TE</a></li>
+          <li><a class="dropdown-item" href="#">മലയാളം - ML</a></li>
+        </ul>
+      </div>
+      <div class="btn-group" id="btn-sign">
+        <a href="./login-page.html" id="sign-line">
+          <div><i class="bi bi-person-add"></i>Sign in</div>
+        </a>
+      </div>
+
+      <div class="order">
+        <div class="span">Orders</div>
+      </div>
+      <div id="cart-icon">
+        <div class="cart-count">0</div>
+        <i class="bi bi-cart2"></i>
+        <p class="cart-font">Cart</p>
+      </div>
+    </div>
+
+    <div class="cart">
+      <div id="card-title">Cart Items</div>
+      <div class="cart-content">
+
+        <!-- <div class="cart-box">
+                  <img src="./Amazon-img/61d+WbpFCiL._SX679_.jpg" class="food-img" alt="Tata Sampann Unpolished Toor Dal (Arhar Dal), 1kg">
+                  <div class="detail-box">
+                    <div class="cart-food-title">Tata Sampann Unpolished Toor Dal (Arhar Dal), 1kg</div>
+                    <div class="price-box">
+                      <div class="cart-price">44</div>
+                      <div class="cart-amt">44</div>
+                    </div>
+                    <input type="number" value="1" class="cart-quantity">
+                  </div>
+                  <i class="bi bi-trash-fill" name="trash"></i>
+                </div>
+
+                <div class="cart-box">
+                  <img src="./Amazon-img/61d+WbpFCiL._SX679_.jpg" class="food-img" alt="Tata Sampann Unpolished Toor Dal (Arhar Dal), 1kg">
+                  <div class="detail-box">
+                    <div class="cart-food-title">Tata Sampann Unpolished Toor Dal (Arhar Dal), 1kg</div>
+                    <div class="price-box">
+                      <div class="cart-price">44</div>
+                      <div class="cart-amt">44</div>
+                    </div>
+                    <input type="number" value="1" class="cart-quantity">
+                  </div>
+                  <i class="bi bi-trash-fill"></i>
+                </div> -->
+
+      </div>
+      <div class="total">
+        <div class="total-title">Total</div>
+        <div class="total-price">Rs.0</div>
+      </div>
+      <button class="buy-btn">Place order</button>
+      <i class="bi bi-x"></i>
+    </div>
+  </div>
+
+
+
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./Amazon-img/Header_PC.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./Amazon-img/Snack_pc_header.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./Amazon-img/DryFruit_BreakFast_1500x300_1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./Amazon-img/SNS_ingress_PC_02.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./Amazon-img/3306_ITCStore.in_ABD_Product_Listing_727x426px.webp" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <main>
+    <div class="content">
+      <div class="first-product">
+        <div class="pic">
+          <img src="./Amazon-img/61d+WbpFCiL._SX679_.jpg" class="product-pic"
+            alt="Tata Sampann Unpolished Toor Dal (Arhar Dal), 1kg">
+        </div>
+        <p class="product-info">Tata Sampann Unpolished Toor Dal (Arhar Dal), 1kg</p>
+
+        <!-- <div class="price"> -->
+        <p class="OGrate">Rs.25</p>
+        <!-- <p class="mrp-rate">M.R.P:&nbsp<del><span>&#8377</span>50.00</del></p> -->
+        <!-- </div> -->
+        <button class="cart-btn">Add cart<i class="bi bi-cart-plus-fill"></i></button>
+      </div>
+      <div class="first-product">
+        <div class="pic">
+          <img src="./Amazon-img/618lHyWqdML._SX679_.jpg" class="product-pic"
+            alt="Tata Sampann Unpolished Green Moong Dal (Whole), 500g">
+        </div>
+        <p class="product-info">Tata Sampann Unpolished Green Moong Dal (Whole), 500g</p>
+        <!-- <div class="price"> -->
+        <p class="OGrate">Rs.25</p>
+        <!-- <p class="mrp-rate">M.R.P:&nbsp<del><span>&#8377</span>1,14,900.00</del></p>           -->
+        <!-- </div> -->
+        <button class="cart-btn">Add cart<i class="bi bi-cart-plus-fill"></i></button>
+
+      </div>
+      <div class="first-product">
+        <div class="pic">
+          <img src="./Amazon-img/241600_7-tata-salt-iodized.webp" class="product-pic"
+            alt="Tata Salt Vacuum Evaporated Iodised Salt - Helps Mental Development, 1 kg Pouch">
+        </div>
+        <p class="product-info">Tata Salt Vacuum Evaporated Iodised Salt, 1 kg Pouch</p>
+        <!-- <div class="price"> -->
+        <p class="OGrate">Rs.25</p>
+        <!-- <p class="mrp-rate">M.R.P:&nbsp<del><span>&#8377</span>1,29,900.00</del></p> -->
+        <!-- </div> -->
+        <button class="cart-btn">Add cart<i class="bi bi-cart-plus-fill"></i></button>
+
+      </div>
+      <div class="first-product">
+        <div class="pic">
+          <img src="./Amazon-img/100647221_11-fortune-rice-bran-oil.webp" class="product-pic"
+            alt="Fortune Rice Bran Oil, 1L Pouch">
+        </div>
+        <p class="product-info">Sunlite refined pouch sunflower oil, 1kg</p>
+
+        <!-- <div class="price"> -->
+        <p class="OGrate">Rs.25</p>
+        <!-- <p class="mrp-rate">M.R.P:&nbsp<del><span>&#8377</span>1,14,900.00</del></p> -->
+        <!-- </div> -->
+        <button class="cart-btn">Add cart<i class="bi bi-cart-plus-fill"></i></button>
+
+      </div>
+      <div class="first-product">
+        <div class="pic">
+          <img src="./Amazon-img/51xkjZo-CtL._SY498_BO1,204,203,200_.jpg" class="product-pic"
+            alt="India Gate Basmati Rice Pouch, Classic, 1kg">
+        </div>
+        <p class="product-info">India Gate Basmati Rice Pouch, Classic, 1kg</p>
+        <!-- <div class="price"> -->
+        <p class="OGrate">Rs.25</p>
+        <!-- <p class="mrp-rate">M.R.P:&nbsp<del><span>&#8377</span>1,200.00</del></p> -->
+        <!-- </div> -->
+        <button class="cart-btn">Add cart<i class="bi bi-cart-plus-fill"></i></button>
+
+      </div>
+      <!-- <div class="first-product">
+          <div class="pic">
+            <img src="./Amazon-img/40223727_2-sunfeast-biscuit-marie-light-active-rich-taste.webp"
+               class="product-pic" alt="Sunfeast Marie Light Active Biscuits - With Iron & 6 Vitamins, Tea Time Partner, 1 kg Pouch">
+            </div>
+            <p class="product-info">Sunfeast Marie Light Active Biscuits, 1 kg Pouch</p>
+            <div class="price">
+                <p class="OGrate"><sup><span>&#8377</span></sup>106.50</p> 
+                <p class="mrp-rate">M.R.P:&nbsp<del><span>&#8377</span>150</del></p>
+            </div>
+            <button class="cart-btn">Add cart<i class="bi bi-cart-plus-fill"></i></button>
+        </div> -->
+    </div>
+  </main>
+  <button class="back-btn">
+    <a href="#head">&#8593</a>
+  </button>
+
+
+  <script src="./amazon.js"></script>
+</body>
+
+</html>
