@@ -21,6 +21,8 @@
         </div>
         <div class="login-form center">
             <h1>Sign up</h1>
+            <label for="">Full Name:</label>
+            <input class="form-input" type="text" />
             <label for="">Email:</label>
             <input class="form-input" type="text" />
             <label for="">Password:</label>
@@ -32,11 +34,13 @@
         </div>
         <div class="signup-form center">
             <h1>Login</h1>
+            <label for="">Full Name:</label>
+            <input class="form-input" id="logName" type="text" />
             <label for="">Email:</label>
             <input class="form-input" type="text" />
             <label for="">Password:</label>
             <input class="form-input" type="password" />
-            <button class="btn-switch">Login</button>
+            <button class="btn-switch" onclick="passValue(event)">Login</button>
             <p>Don't have account yet?<span class="register-link" id="signup">Register</span></p>
         </div>
     </div>

@@ -310,8 +310,9 @@ body {
 }
 
 .offcanvas-body {
-    display: inline-block;
+    display: inline;
     padding: 0px !important;
+    width: 500px;
 }
 
 .offcanvas {
@@ -532,4 +533,8 @@ li:hover>.right-arrow {
     right: 0.8rem;
     font-size: 2rem;
     cursor: pointer;
+}
+
+#welcome {
+    color: #000;
 }

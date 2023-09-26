@@ -1,24 +1,3 @@
-function myFunction() {
-  var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more");
-  var btnText = document.getElementById("myBtn");
-  var moreLess = document.querySelector('.iMoreLess');
-  console.log(moreLess);
-
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
-    btnText.innerHTML = "see more";
-    moreLess.className('bi-chevron-down');
-    moreText.style.display = "none";
-  } else {
-    dots.style.display = "none";
-    btnText.innerHTML = "see less";
-    moreLess.className('bi-chevron-up');
-    moreText.style.display = "inline";
-  }
-}
-
-
 const btnCart = document.querySelector('#cart-icon');
 const cart = document.querySelector('.cart');
 const btnClose = document.querySelector('.bi-x');
