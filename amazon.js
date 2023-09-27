@@ -129,16 +129,28 @@ function updateTotal() {
   }
 }
 
+if (localStorage["userName"]) {
 
-c = Math.trunc(-2.99);
-console.log(c);
+  document.getElementById('userId').innerHTML = localStorage.getItem('userName');
+  document.getElementById('loginName').innerHTML = localStorage.getItem('userName');
+}
 
-s = Math.floor(-2.1)
-console.log(s)
+// function myFunction() {
 
-s = Math.ceil(-2.9)
-console.log(s)
+//   if (x.style.display === "none") {
+//     x.style.display = "block";
+//   } else {
+//     x.style.display = "none";
+//   }
+// }
 
-let x = 5;
-let y = x++;
-console.log(y);
+function normalImg() {
+  var x = document.getElementById("myDIV");
+  x.style.display = "none";
+}
+function bigImg() {
+  var x = document.getElementById("myDIV");
+  x.style.display = "block";
+}
+
+

@@ -19,30 +19,30 @@
                 commodi fuga, iure ad officia placeat totam incidunt dolorem? Nihil ullam laborum quaerat
                 repudiandae dolore, veniam facilis enim!</p>
         </div>
-        <div class="login-form center">
+        <form class="login-form center" onsubmit="handleSignup(event)">
             <h1>Sign up</h1>
-            <label for="">Full Name:</label>
-            <input class="form-input" type="text" />
-            <label for="">Email:</label>
-            <input class="form-input" type="text" />
-            <label for="">Password:</label>
-            <input class="form-input" type="password" />
-            <label for="">Password repeat:</label>
-            <input class="form-input" type="password" />
-            <button class="btn-switch green">Sign Up</button>
-            <p>Already have an account?<span class="register-link" id="login">Login</span></p>
-        </div>
-        <div class="signup-form center">
+            <label for="signName">Full Name:</label>
+            <input class="form-input" id="signName" type="text" />
+            <label for="signEmail">Email:</label>
+            <input class="form-input" id="signEmail" type="text" />
+            <label for="signPass">Password:</label>
+            <input class="form-input" id="signPass" type="password" />
+            <label for="signConfirmPass">Password repeat:</label>
+            <input class="form-input" id="signConfirmPass" type="password" />
+            <button class="btn-switch green" type="submit">Sign Up</button>
+            <p>Already have an account?<span class="register-link" onclick="onChangeLeft(event)">Login</span></p>
+        </form>
+        <form class="signup-form center" onsubmit="handleLogin(event)">
             <h1>Login</h1>
-            <label for="">Full Name:</label>
+            <label for="logName">Full Name:</label>
             <input class="form-input" id="logName" type="text" />
-            <label for="">Email:</label>
-            <input class="form-input" type="text" />
-            <label for="">Password:</label>
-            <input class="form-input" type="password" />
-            <button class="btn-switch" onclick="passValue(event)">Login</button>
-            <p>Don't have account yet?<span class="register-link" id="signup">Register</span></p>
-        </div>
+            <label for="logEmail">Email:</label>
+            <input class="form-input" id="logEmail" type="text" />
+            <label for="logPass">Password:</label>
+            <input class="form-input" id="logPass" type="password" />
+            <button class="btn-switch" type="submit">Login</button>
+            <p>Don't have account yet?<span class="register-link" onclick="onChangeRight(event)">Register</span></p>
+        </form>
     </div>
     <script src="./login.js"></script>
 </body>

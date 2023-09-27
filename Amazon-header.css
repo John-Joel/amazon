@@ -204,12 +204,20 @@ body {
 #welcome-user {
     text-decoration: none;
     color: #fff;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 #btn-sign {
     margin-top: 2px;
     padding-top: 14px;
+    display: block;
+}
+
+#btn-sign button {
+    background: none;
+    border: none;
+    position: relative;
+    overflow: hidden;
 }
 
 .span {
@@ -535,6 +543,19 @@ li:hover>.right-arrow {
     cursor: pointer;
 }
 
-#welcome {
-    color: #000;
+#myDIV {
+    display: none;
+    position: absolute;
+    bottom: -40px;
+    z-index: 100;
+    background-color: #ffffff;
+}
+
+#myDIV button {
+    background-color: orange;
+    width: 22vh;
+    height: 40px;
+    padding: 10px;
+    margin: 5px;
+    font-size: 15px;
 }

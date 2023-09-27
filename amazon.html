@@ -36,8 +36,8 @@
             <div class="offcanvas-header">
               <div id="menu-signin"></div>
               <div class="offcanvas-title" id="offcanvasWithBothOptionsLabel"><a href="./login-page.html"
-                  id="welcome-user">Sign in</a>
-                <div><span id="welcome"></span></div>
+                  id="welcome-user"><span id="userId">Sign in</span>
+                </a>
               </div>
               <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
@@ -120,9 +120,14 @@
         </ul>
       </div>
       <div class="btn-group" id="btn-sign">
-        <a href="./login-page.html" id="sign-line">
-          <div><i class="bi bi-person-add"></i>Sign in</div>
-        </a>
+        <button onmouseover="bigImg()" onmouseout="normalImg()">
+          <div id="sign-line">
+            <span id="loginName"><i class="bi bi-person-add"></i>Sign in</span>
+          </div>
+        </button>
+        <div id="myDIV" onmouseover="bigImg()" onmouseout="normalImg()">
+          <button><a href="./login-page.html" id="sign-line"><i class="bi bi-person-add"></i>Add</a></button>
+        </div>
       </div>
 
       <div class="order">
@@ -293,9 +298,9 @@
     <a href="#head">&#8593</a>
   </button>
 
-
-  <script src="./amazon.js"></script>
   <script src="./login.js"></script>
+  <script src="./amazon.js"></script>
+
 </body>
 
 </html>
